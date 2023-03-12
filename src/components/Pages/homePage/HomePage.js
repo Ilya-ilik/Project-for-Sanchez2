@@ -8,12 +8,13 @@ import Postscript from "./../../Functional/Postscript/Postscript";
 import Input from "./../../Functional/Input/Input";
 import BasicButton from './../../Functional/Button/BasicButton/BasicButton';
 import TxtButton from './../../Functional/Button/TxtButton/TxtButton';
+import {URL} from "../../API/URL";
 
-function HomePage(props) {
+function HomePage() {
   const [tempPass, setTempPass] = useState('');
 
   const getTempPass = () => {
-    axios.get(props.url).then((json) => {
+    axios.get(URL).then((json) => {
       setTempPass(json.data.password);
     });
   }
