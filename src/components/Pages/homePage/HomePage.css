@@ -35,3 +35,24 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 835px) {
+  .HomePage {
+    align-items: flex-start;
+  }
+  .HomePage_content {
+    margin-top: 150px;
+  }
+}
+
+
+@media screen and (max-width: 573px) {
+  .HomePage {
+    align-items: center;
+  }
+  .HomePage_content {
+    margin: 16px;
+    width: 358px;
+    height: 812px;
+  }
+}
