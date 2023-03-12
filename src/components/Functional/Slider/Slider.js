@@ -3,9 +3,9 @@ import "./Slider.css";
 function Slider(props) {
   return (
     <>
-      <p className="difficulty_text">{props.txt}</p>
+      <p className="slider_txt">{props.txt}</p>
       <input
-        className="polzunok"
+        className="Slider"
         type="range"
         min={props.min}
         max={props.max}

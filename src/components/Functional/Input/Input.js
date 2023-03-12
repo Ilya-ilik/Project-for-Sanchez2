@@ -1,7 +1,14 @@
-import "./Button.css";
+import "./Input.css";
+import Button from './../Button/Button';
 
-function Button(props) {
-  return <div className="button" onClick={props.onClick}>{props.btnTxt}</div>;
+function Input(props) {
+  return (
+    
+    <div className="input">
+      <div className="input_password">{props.table}</div>{" "}
+      <Button class="input-icon" img={props.img} onClick={()=> console.log('qeq')} />
+    </div>
+  )
 }
 
-export default Button;
+export default Input;

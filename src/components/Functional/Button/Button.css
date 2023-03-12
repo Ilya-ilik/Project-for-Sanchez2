@@ -1,25 +1,12 @@
 .button {
-    /* Button */
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 0px 24px; */
-    /* gap: 8px; */
-
-    /* position: absolute; */
     width: 255px;
     height: 48px;
-
-    /* blue/500 */
-
     background: #3182ce;
     border-radius: 6px;
-
-    margin: 0 141px 22px 140px;
 
     font-family: "Inter";
     font-style: normal;
@@ -27,30 +14,14 @@
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
-
+    cursor: pointer;
     text-align: justify;
 }
 
-.button_text {
-    /* .children */
-
-    /* width: 184px;
-    height: 28px;
-  
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px; */
-    /* identical to box height, or 175% */
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    color: #ffffff; */
-
-    /* Inside auto layout */
-
-    margin: 0;
+.button.input-icon {
+    position:absolute;
+    right: 10px;
+    width: 19px;
+    height: 22px;
+    background: transparent;    
 }

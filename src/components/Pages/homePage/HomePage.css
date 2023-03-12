@@ -9,164 +9,35 @@
 }
 
 .HomePage {
-  text-align: center;
   background-color: #ebf8ff;
-  /*Задний фон из макета */
-  width: 1440px;
-  height: 1024px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.central_block {
-  position: absolute;
-  width: 536px;
-  height: 501px;
-  margin: 261px 452px 0 452px;
+.HomePage_content {
+  width: 420px;
+  height: 440px;
   background: #ffffff;
   box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
     0px 10px 10px -5px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
-}
-
-.first_text {
-  /* xl */
-
-  /* position: absolute; */
-  width: 152px;
-  height: 17px;
-  /* left: 650px;
-  top: 335px; */
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 150%;
-  /* identical to box height, or 16px */
-
-  color: #949494;
-
-  margin: 0px 186px 78px 198px;
-}
-
-.input {
-  /* padding-left: 223px;
-  padding-right: 8px; */
-
-  /* Input */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  /* padding: 0px 16px; */
-  /* gap: 74px; */
-
-  /* position: absolute; */
-  width: 255px;
-  height: 48px;
-  left: 592px;
-  top: 430px;
-
-  /* white */
-
-  background: #ffffff;
-  /* gray/200 */
-
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
-
-  margin: 0px 141px 10px 140px;
-}
-
-.input_password {
-  width: 215px;
-}
-
-.difficulty_text {
-  /* xl */
-
-  /* position: absolute; */
-  width: 103px;
-  height: 18px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* black */
-
-  color: #000000;
-
-  margin: 0px 217px 0px 216px;
-}
-
-input[type="range"] {
-  width: 255px;
-  /*длинна ползунка */
-  height: 4px;
-  margin: 0 0 112px 0;
-}
-
-.copyright {
-  /* xl */
-
-  /* position: absolute; */
-  width: 92px;
-  height: 17px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 11px;
-  line-height: 150%;
-  /* identical to box height, or 16px */
-
-  color: #949494;
-
-  margin: 0px 222px 40px 222px;
-}
-
-
-.HomePage-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .HomePage-logo {
-    animation: HomePage-logo-spin infinite 20s linear;
-  }
-}
-
-.HomePage-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.HomePage-link {
-  color: #61dafb;
+.third {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes HomePage-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.third:nth-child(2) {  
+  height: 200px;
+  justify-content: space-between;
 }
+
