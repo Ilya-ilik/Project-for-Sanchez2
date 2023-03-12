@@ -1,0 +1,13 @@
+.button._txt {
+    width: 255px;
+    height: 48px;
+}
+
+.button_txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
