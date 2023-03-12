@@ -1,0 +1,21 @@
+.label {
+  /* position: absolute; */
+  width: 171px;
+  height: 37.36px;
+  /* margin: 33px 176px 3.64px 189px; */
+  margin: 29px 178px 7.64px 187px;
+  align-items: center;
+
+  font-family: "Intro Black";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37.3613px;
+  line-height: 150%;
+  /* or 56px */
+
+  text-align: center;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+
+  color: #3182ce;
+}

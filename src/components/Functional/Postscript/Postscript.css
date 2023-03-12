@@ -1,0 +1,18 @@
+.postscript {
+    /* xl */
+  
+    /* position: absolute; */
+    width: 152px;
+    height: 17px;
+    /* left: 650px;
+    top: 335px; */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    /* identical to box height, or 16px */
+  
+    color: #949494;
+  }

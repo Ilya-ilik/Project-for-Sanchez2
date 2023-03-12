@@ -1,16 +1,17 @@
 @font-face {
   font-family: "Intro Black";
-  src: url("fonts/intro_black.ttf") format("truetype");
+  src: url("../../../assets/fonts/intro_black.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("fonts/InterRegular.ttf") format("truetype");
+  src: url("../../../assets/fonts/InterRegular.ttf") format("truetype");
 }
 
-.App {
+.HomePage {
   text-align: center;
-  background-color: #ebf8ff; /*Задний фон из макета */
+  background-color: #ebf8ff;
+  /*Задний фон из макета */
   width: 1440px;
   height: 1024px;
   margin: 0 auto;
@@ -25,28 +26,6 @@
   box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
     0px 10px 10px -5px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
-}
-
-.logo {
-  /* position: absolute; */
-  width: 171px;
-  height: 37.36px;
-  /* margin: 33px 176px 3.64px 189px; */
-  margin: 29px 178px 7.64px 187px;
-  align-items: center;
-
-  font-family: "Intro Black";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 37.3613px;
-  line-height: 150%;
-  /* or 56px */
-
-  text-align: center;
-  letter-spacing: -0.1em;
-  text-transform: uppercase;
-
-  color: #3182ce;
 }
 
 .first_text {
@@ -98,7 +77,7 @@
   background: #ffffff;
   /* gray/200 */
 
-  border: 1px solid #e2e8f0; 
+  border: 1px solid #e2e8f0;
   border-radius: 6px;
 
   margin: 0px 141px 10px 140px;
@@ -106,63 +85,6 @@
 
 .input_password {
   width: 215px;
-}
-
-.button {
-  /* Button */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* padding: 0px 24px; */
-  /* gap: 8px; */
-
-  /* position: absolute; */
-  width: 255px;
-  height: 48px;
-
-  /* blue/500 */
-
-  background: #3182ce;
-  border-radius: 6px;
-
-  margin: 0 141px 22px 140px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 28px;
-  color: #ffffff;
-
-  text-align: justify;
-}
-
-.button_text {
-  /* .children */
-
-  /* width: 184px;
-  height: 28px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 28px; */
-  /* identical to box height, or 175% */
-
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #ffffff; */
-
-  /* Inside auto layout */
-
-  margin: 0;
 }
 
 .difficulty_text {
@@ -187,7 +109,8 @@
 }
 
 input[type="range"] {
-  width: 255px; /*длинна ползунка */
+  width: 255px;
+  /*длинна ползунка */
   height: 4px;
   margin: 0 0 112px 0;
 }
@@ -212,18 +135,18 @@ input[type="range"] {
 }
 
 
-.App-logo {
+.HomePage-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .HomePage-logo {
+    animation: HomePage-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.HomePage-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -234,14 +157,15 @@ input[type="range"] {
   color: white;
 }
 
-.App-link {
+.HomePage-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes HomePage-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
