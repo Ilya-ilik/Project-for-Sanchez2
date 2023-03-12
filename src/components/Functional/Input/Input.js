@@ -1,12 +1,12 @@
 import "./Input.css";
-import Button from './../Button/Button';
+import IconButton from './../Button/IconButton/IconButton';
 
 function Input(props) {
   return (
     
-    <div className="input">
-      <div className="input_password">{props.table}</div>{" "}
-      <Button class="input-icon" img={props.img} onClick={()=> console.log('qeq')} />
+    <div className={`input ${props.class}`}>
+      <div className="input_password">{props.pass}</div>{" "}
+      <IconButton class="input-icon" img={props.img} onClick={()=> console.log('qeq')} />
     </div>
   )
 }

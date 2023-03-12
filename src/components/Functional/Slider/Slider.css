@@ -1,5 +1,11 @@
+.slider_block {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .slider_txt {
-  margin-top: 30px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

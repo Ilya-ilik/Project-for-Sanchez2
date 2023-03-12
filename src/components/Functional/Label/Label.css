@@ -4,10 +4,10 @@
   font-family: "Intro Black";
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #3182ce;
-  margin: 15px 0 0 0;
+  letter-spacing: -0.1em;
 }
 
 .__red {
