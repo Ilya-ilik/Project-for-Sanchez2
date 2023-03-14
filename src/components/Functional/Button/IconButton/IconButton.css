@@ -3,3 +3,32 @@
     width: 19px;
     height: 22px;
 }
+
+.icon_btn {
+    background: url(../../../../assets//images/copyIcon_normal.svg);
+    width: 100%;
+    height: 100%;
+}
+
+.icon_btn:hover {
+    background: url(../../../../assets//images/copyIcon_hover.svg);
+}
+
+.icon_btn_tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    height: 20px;
+    width: 80px;
+    background-color: #D9D9D9;
+    border-radius: 6px;
+}
+
+.tooltip_txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}

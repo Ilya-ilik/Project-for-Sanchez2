@@ -8,7 +8,7 @@ function Input(props) {
     
     <div className={`input ${props.class}`}>
       <input ref={clipboard.target} className="input_password" value={props.pass} readOnly/>
-      <IconButton class="input-icon" img={props.img} onClick={clipboard.copy} />
+      <IconButton class="input-icon" onClick={clipboard.copy} />
     </div>
   )
 }

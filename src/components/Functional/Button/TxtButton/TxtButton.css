@@ -3,6 +3,13 @@
     height: 48px;
 }
 
+.button._txt:hover {
+   background-color: #2768A5;
+}
+
+
+
+
 .button_txt {
     font-family: 'Inter';
     font-style: normal;

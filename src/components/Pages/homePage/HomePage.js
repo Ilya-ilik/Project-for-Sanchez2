@@ -1,6 +1,5 @@
 import "./HomePage.css";
 import axios from "axios";
-import Vector from "../../../assets/images/Vector.png";
 import { useState, useEffect } from "react";
 import Label from "./../../Functional/Label/Label";
 import Slider from "./../../Functional/Slider/Slider";
@@ -27,13 +26,13 @@ function HomePage() {
     <div className="HomePage">
       <div className="HomePage_content">
         <div className="piece">
-          <Label class="_mt30" lblTxtLeft="bibap"  lblTxtRight="ass"/>
+          <Label class="_mt30" lblTxtLeft="biba"  lblTxtRight="ass"/>
           <Postscript txt="простой генератор паролей" />
         </div>
         <div className="piece _h250">
           <div className="piece">
-            <Input class="_mb10" pass={tempPass} img={Vector} />
-            <TxtButton btnTxt="сгенерировать пароль" onClick={getTempPass} />
+            <Input class="_mb10" pass={tempPass}/>
+            <TxtButton btnTxt="Сгенерировать пароль" onClick={getTempPass} />
             <BasicButton onClick={getTempPass} />
           </div>
           <div className="piece">
