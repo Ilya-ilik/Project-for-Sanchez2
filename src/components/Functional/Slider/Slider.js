@@ -2,7 +2,7 @@ import "./Slider.css";
 import { useState } from "react";
 
 const passLvlTxt = (valueNumber) => {
-  let result = ''
+  let result = "";
   switch (+valueNumber) {
     case 1:
       result = "простейший";
@@ -20,13 +20,12 @@ const passLvlTxt = (valueNumber) => {
       result = "сложнейший";
       break;
     default:
-      result = ''
+      result = "";
   }
   return result;
 };
 
 function Slider(props) {
-  const [passLvl, setPassLvl] = useState(1);
   return (
     <div className="slider_block">
       <p className={`slider_txt ${props.class}`}>{props.txt}</p>
@@ -36,10 +35,10 @@ function Slider(props) {
         min={props.min}
         max={props.max}
         step={props.step}
-        value={passLvl}
-        onChange={(e) => setPassLvl(e.target.value)}
+        value={props.value}
+        onChange={(e) => props.setValue(e.target.value)}
       />
-      <p className="slider_txt">{passLvlTxt(passLvl)}</p>
+      <p className="slider_txt">{passLvlTxt(props.value)}</p>
     </div>
   );
 }
