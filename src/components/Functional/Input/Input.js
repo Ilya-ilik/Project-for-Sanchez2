@@ -4,10 +4,9 @@ import { useClipboard } from 'use-clipboard-copy'
 
 function Input(props) {
   const clipboard = useClipboard();
-  return (
-    
+  return (    
     <div className={`input ${props.class}`}>
-      <input ref={clipboard.target} className="input_password" value={props.pass} readOnly/>
+      <input ref={clipboard.target} className="input_password" value={props.pass}/>
       <IconButton class="input-icon" onClick={clipboard.copy} />
     </div>
   )

@@ -26,10 +26,10 @@ function HomePage() {
     <div className="HomePage">
       <div className="HomePage_content">
         <div className="piece">
-          <Label class="_mt30" lblTxtLeft="biba"  lblTxtRight="ass"/>
+          <Label class="_mt30" lblTxtLeft="biba"  lblTxtRight="pass"/>
           <Postscript txt="простой генератор паролей" />
         </div>
-        <div className="piece _h250">
+        <div className="piece">
           <div className="piece">
             <Input class="_mb10" pass={tempPass}/>
             <TxtButton btnTxt="Сгенерировать пароль" onClick={getTempPass} />
