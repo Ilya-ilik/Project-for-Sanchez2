@@ -36,20 +36,18 @@
   align-items: center;
 }
 
-@media screen and (max-width: 835px) {
-  .HomePage {
-    align-items: flex-start;
-  }
-  .HomePage_content {
-    margin-top: 150px;
-  }
+.piece:nth-child(1) {  
+  padding-top: 20px;
+}
+
+.piece:nth-child(3) {  
+  padding-bottom: 20px;
 }
 
 
 @media screen and (max-width: 573px) {
   .HomePage {
     box-sizing: border-box;
-    align-items: center;
     padding: 16px;
   }
   .HomePage_content {
