@@ -8,6 +8,7 @@ import Input from "./../../Functional/Input/Input";
 import BasicButton from "./../../Functional/Button/BasicButton/BasicButton";
 import TxtButton from "./../../Functional/Button/TxtButton/TxtButton";
 import { URL } from "../../API/URL";
+import { YMInitializer } from 'react-yandex-metrika';
 
 function HomePage() {
   const [tempPass, setTempPass] = useState("");
@@ -26,6 +27,7 @@ function HomePage() {
 
   return (
     <div className="HomePage">
+      <YMInitializer accounts={[92952532]} />
       <div className="HomePage_content">
         <div className="piece">
           <Label class="_mt30" lblTxtLeft="biba" lblTxtRight="pass" />
